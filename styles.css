@@ -1,0 +1,148 @@
+/* Reset default browser styles */
+ *{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+/* style the body */
+body{
+   font-family:Arial,sans-serif;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   background-color:#f0f4f8;
+   color:#333;
+   min-height:100vh
+}
+ /* style the header */
+header{
+     background-color:#0044cc;
+     color:white;
+     padding:1.5em;
+     text align:center;
+     width:100%
+}
+/* style the main content */
+main{
+     padding:2em;
+     width:80%;
+     max-width:800px;
+     text-align:center;
+}  
+
+/* style the courses section */
+.courses{
+     display:grid;
+     grid-template-columns:1fr;
+     gap:2em;
+}
+
+.course{
+   background-color:#fff;
+   padding:1em;
+   border:1px soild #ddd;
+   border-radius:8px;
+   text-align:center;
+   transition:transform 0.36 ease-in-out;
+} 
+
+.course:hover{
+    transform:scale(1.02);
+} 
+.course img{
+    width:30%;
+    object-fit:cover;
+    border-radius:8px;
+    transition:transform 0.3s ease-in-out;
+} 
+
+ .course:hover img{
+     transform:scale(1.1);
+}
+ .enrool-button{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background-color:#28a745;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+  .enroll-button:hover{
+   background-color:3218838;
+}
+
+/* Enrollment form styling */
+ .enroll{
+    margin-top:2em;
+    text-align:left;
+}
+ .enroll lable{
+   margin-top:1em;
+}
+
+ .enroll input,.enroll select{
+   padding:0.5;
+   border:1px soild #ddd;
+   border-radius:5px;
+   width:100%
+}
+
+.enroll button{
+  margin-top:1em;
+  padding:10px;
+}
+/* footer styling */
+ footer {
+     background-color:#0044cc;
+     color:white;
+     text-align:center;
+     padding:1em;
+     width:100%;
+     margin-top:auto;
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
